@@ -180,7 +180,7 @@ function placePipes(){
 
 function moveBird(e){
 
-    if(e.code == "Space" || e.code == "ArrowUp"|| e.code == "KeyX" || e.code =="touchstart"|| e.code == "click"){
+    if(e.code == "Space" || e.code == "ArrowUp"|| e.code == "KeyX" || e.type =="touchstart"|| e.type == "click"){
         //jmp
         velocityY = -6;
 
